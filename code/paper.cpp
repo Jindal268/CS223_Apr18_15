@@ -118,6 +118,8 @@ Paper Paper:: tryPaper(string bib)
     c=bib[i];
     while(c!=',')
     {
+        if(c>'9' || c<'0')
+            return Paper();
         v=v*10+(int)(c-48);
         i++;
         c=bib[i];
@@ -130,6 +132,8 @@ Paper Paper:: tryPaper(string bib)
     c=bib[i];
     while(c!=',')
     {
+        if(c>'9' || c<'0')
+            return Paper();
         n=n*10+(int)(c-48);
         i++;
         if(i>=l)
