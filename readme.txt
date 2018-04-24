@@ -5,9 +5,9 @@ Platform tested: Windows 10
 How to use:
 The finished product is supplied as a zip file which can be extracted and the software can be used by running the executable "Pub.exe".
 It can be run by simply double clicking on it or by using Command Prompt. It does not require preinstalled C++ compiler and all neccessary files are contained within the software package.
-Other way is using Cygwin software on windows and just execute makefile.
+To compile yourself, run terminal and execute "make" command in the same directory as code and makefile. This requires C++ compiler to be installed on the system and PATH environment variable set to include the compiler directory. You can also use terminal such as Cygwin on Windows directly which already includes the compiler.
 
-Note: All data files need to be in the same folder as executable files(code).
+Note: The data folder needs to be in same directory as the executable for proper working. On some systems, an error may occur because C++ library is not available to the program. To solve this, put the dll files provided in LibDLL.zip into the same folder as the executable. The Release.zip file contains the built executable and supporting files and the software can be run by simply executing Pub.exe.
 
 Features included:
 There are 2 types of users- Guest and Admin
