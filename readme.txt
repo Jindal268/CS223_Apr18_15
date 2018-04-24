@@ -5,6 +5,9 @@ Platform tested: Windows 10
 How to use:
 The finished product is supplied as a zip file which can be extracted and the software can be used by running the executable "Pub.exe".
 It can be run by simply double clicking on it or by using Command Prompt. It does not require preinstalled C++ compiler and all neccessary files are contained within the software package.
+Other way is using Cygwin software on windows and just execute makefile.
+
+Note: All data files need to be in the same folder as executable files(code).
 
 Features included:
 There are 2 types of users- Guest and Admin
