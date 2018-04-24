@@ -2,3 +2,4 @@ auth1, auth2 and auth3, "water use," mist journal, vol.2, no.5, pp.3-7, 2017. do
 auth5 and auth3, "fire use," leaf journal, vol.30, no.1, pp.4-12, 2015. doi:10.1884/1248.6587
 auth7, auth8, auth9 and auth2, "earth use," rock journal, vol.15, no.7, pp.8-16, 2016. doi:10.1584/1238.6587
 auth8, "wind use," sand journal, vol.22, no.45, pp.4-6, 2017. doi:10.1584/1248.6517
+qazi, "lightning use," cloud journal, vol.2, no.5, pp.3-7, 2017. doi:10.1584/1248.6574
