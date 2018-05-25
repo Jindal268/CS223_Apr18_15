@@ -120,6 +120,7 @@ void Database::saveData()
     }
     log.close();
     ts.close();
+    generateList();
     clearCache();
     cout<<"Database saved"<<endl;
 }
